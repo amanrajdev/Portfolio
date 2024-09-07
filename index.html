@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- *************************Navbar************************* -->
+    <header class="header">
+        <a href="#" class="logo">Aman</a>
+        <i class='bx bx-menu' id="menu" style='color:#ffffff'></i>
+        <nav class="navbar">
+            <a href="#home" style="--vlr:1" class="active">Home</a>
+            <a href="#about" style="--vlr:2">About Me</a>
+            <a href="#education" style="--vlr:3">Education</a>
+            <a href="#skills" style="--vlr:4">Skills</a>
+            <a href="#contact" style="--vlr:5">Contact Me</a>
+        </nav>
+    </header>
+    <!-- *************************Home Section************************* -->
+    <section class="home"  id="home">
+        <div class="text-content">
+            <h1>I'm Aman Raj Singh</h1>
+            <div class="text-animation">
+                <h2>Wordpress Developer</h2>
+                <h2>SEO Analyst</h2>
+            </div>
+            <p>I am Aman Raj Singh, a skilled WordPress developer and SEO analyst, passionate about building 
+                powerful websites and optimizing them for maximum visibility. My expertise centers around creating 
+                feature-rich, user-friendly WordPress websites while ensuring that they rank well in search engines 
+                through effective SEO strategies.</p> <p>As a WordPress developer, I excel in designing custom themes, 
+                    integrating plugins, and tailoring websites to meet specific business needs. I prioritize clean, 
+                    maintainable code and focus on delivering secure, responsive, and performance-optimized websites. 
+                    From e-commerce platforms to personal blogs, I ensure that every site I build is visually appealing 
+                    and highly functional, offering an exceptional user experience across devices.</p> <p>In my role as an SEO analyst, 
+                        I harness data-driven techniques to improve website rankings and increase organic traffic. 
+                        I specialize in conducting keyword research, optimizing on-page elements, enhancing site speed, 
+                        and creating SEO-friendly content. By staying up-to-date with the latest search engine algorithms 
+                        and trends, I implement strategies that boost visibility, drive traffic, and improve overall site p
+                        erformance.</p> <p>My goal is to deliver websites that not only look great but are also optimized
+                             for search engines, ensuring businesses reach their target audience effectively. 
+                             I am dedicated to continuous learning and am always eager to stay ahead of the curve in both WordPress 
+                             development and SEO best practices.</p>
+                <div class="btn-section">
+                <button class="btn"><a href="Resume.pdf" download="Resume">Download CV <i class="fa fa-download"></i></a></button>
+                <button class="btn" onclick="displayPhone()">Let's Talk</button>
+
+<!-- Modal Structure -->
+                <div id="phoneModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close-btn" onclick="closeModal()">&times;</span>
+                        <p id="phone-number">Call me at: +91-8541040661</p>
+                    </div>
+                </div>
+
+
+
+                </div>
+                    
+            <div class="social-media">
+                
+                <a href="https://www.linkedin.com/in/aman-raj-singh-974a50230/"><i class='bx bxl-linkedin' style="--vlr:8"></i></a>
+                <a href="mailto:amanrajsinghsingh04@gmail.com"><i class="fa fa-envelope"></i></a>
+                
+
+            </div>
+        </div>
+        <img src="aman.jpg" alt="">
+    </section>
+    <!-- *************************About Section************************* -->
+    <section class="about" id="about">
+        <h2 class="title">About <span>Me</span></h2>
+        <img src="aman.jpg" alt="" class="aboutImg">
+        <div class="text-content2">
+            <h2>Wordpress Developer</h2>
+            <p>As a WordPress developer, I specialize in designing and building dynamic, 
+                fully customized websites that cater to a wide range of business needs. With 
+                deep expertise in WordPress themes and plugins, I create user-friendly, scalable
+                 websites that are easy to manage and maintain. I focus on delivering responsive
+                  designs that look great on any device, ensuring optimal performance and usability for every visitor.</p> 
+                  <p>My proficiency in  HTML, CSS, and JavaScript allows me to extend WordPress functionality, 
+                    crafting tailored solutions that align with specific client goals. Whether it’s creating a 
+                    custom theme, optimizing site performance, or integrating essential features like e-commerce or SEO tools, 
+                    I ensure that each project is built with clean, maintainable code. I am committed to delivering websites 
+                    that not only meet aesthetic standards but also provide seamless navigation and a great user experience.</p>
+                     <p>Staying updated with the latest WordPress developments, I continually refine my skills and adopt 
+                        new technologies to provide secure, high-performing websites. My goal is to develop WordPress sites 
+                        that are visually striking, functional, and easy to manage, empowering businesses to succeed online.</p>
+            <button class="btn">Read More</button>
+        </div>
+        <section class="Project" id="Project">
+            <!-- *************************Project Section************************* -->
+            <h2 class="title">Projects <br>(Websites Developed by Me)</h2>
+            <div class="text-content8">
+                <a href="https://www.winwithweb.in/" target="_blank">WinwithWeb</a>
+                <a href="https://govhospitals.com/" target="_blank">Government Hospital Blogs</a>
+            </div>
+        </section>
+        
+    <!-- *************************Education Section************************* -->
+    <section class="education" id="education">
+        <h2 class="title">My <span>Education</span></h2>
+        <div class="row">
+            <div class="column">
+                <h2>Education</h2>
+                <div class="box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year">2021-25<i class='bx bxs-calendar'></i></div>
+                            <h3>Bachelors Of Engineering</h3>
+                            <p>Bachelors Of Engineering in Computer Science from Chandigarh university with CGPA of 6.93</p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year">2020-21 <i class='bx bxs-calendar'></i></div>
+                            <h3>Intermediate</h3>
+                            <p> Done Intermediate with a score of 66.6%</p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year">2018-19 <i class='bx bxs-calendar'></i></div>
+                            <h3>Matriculation</h3>
+                            <p>Done Intermediate with a score of 74.8%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- *************************Skills Section************************* -->
+    <section class="skills" id="skills">
+        <h2 class="title">My <span>Skills</span></h2>
+        <div class="wrapper">
+            <div class="skill-content">
+                <h3 class="skill-title">Language</h3>
+                <div class="skill-box skill-box1">
+                    <div class="single-skill">
+                        <span class="topic">HTML</span>
+                        <span class="topic">90%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-1"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">CSS</span>
+                        <span class="topic">80%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-2"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">JavaScript</span>
+                        <span class="topic">60%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-3"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">Java</span>
+                        <span class="topic">70%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-9"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">Manual Testing/span>
+                        <span class="topic">75%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-10"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">Automation Testing</span>
+                        <span class="topic">50%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-11"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-content">
+                <h3 class="skill-title">Language</h3>
+                <div class="skill-box skill-box2">
+                    <div class="single-skill">
+                        <span class="topic">C++</span>
+                        <span class="topic">60%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-4"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">Python</span>
+                        <span class="topic">70%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-5"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">Wordpress Dev.</span>
+                        <span class="topic">80%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-6"></div>
+                    </div>
+
+                    <div class="single-skill">
+                        <span class="topic">SEO Analysis</span>
+                        <span class="topic">95%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-7"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">DSA</span>
+                        <span class="topic">50%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-12"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">Content Writing</span>
+                        <span class="topic">85%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-13"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- *************************Contact Section************************* -->
+    <section class="contact" id="contact">
+        <h2 class="title">Contact<span>Me</span></h2>
+        <form action="#" id="">
+            <div class="input-box">
+                <input type="text" required placeholder="Full Name">
+                <input type="email" required placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="tel" required placeholder="Mobile Number">
+                <input type="email" required placeholder="Subject For">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+
+    </section>
+    <footer>
+        <div class="text">
+            <p>Copyright @ 2024 by Aman Raj Singh</p>
+        </div>
+       <a href="#"> <i class='bx bx-up-arrow-alt'></i></a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
